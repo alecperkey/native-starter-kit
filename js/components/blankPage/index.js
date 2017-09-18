@@ -48,8 +48,8 @@ class BlankPage extends Component {
         <Content padder>
           <Text>
             {this.props.navigation.state.params.name.item !== undefined
-              ? this.props.navigation.state.params.name.item
-              : "Create Something Awesome . . ."}
+              ? `TBD ${this.props.navigation.state.params.name.item}. . .`
+              : `Create Something Awesome about . . .`}
           </Text>
         </Content>
       </Container>

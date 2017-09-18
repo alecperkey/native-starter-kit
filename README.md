@@ -135,7 +135,8 @@ $ react-native link
 ```
 
 [CodePush](https://github.com/Microsoft/react-native-code-push) plugin installation and key deployment.
-
+react-native link react-native-code-push
+use staging key as key for development
 
 ### 3. Simulate for iOS
 
